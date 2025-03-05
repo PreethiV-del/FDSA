@@ -23,10 +23,10 @@ class LinkedList:
         index = 0
         while current:
             if current.data == data:
-                return index  # Node found at this index
+                return index  
             current = current.next
             index += 1
-        return -1  # Node not found
+        return -1  
 
     def display_list(self):
         current = self.head
